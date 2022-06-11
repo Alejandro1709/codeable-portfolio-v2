@@ -1,0 +1,17 @@
+.header {
+  height: 68px;
+  background-color: #09201b;
+  color: #ccfae1;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__wrapper ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
