@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 :root {
   --font-primary: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
 }
@@ -8,6 +7,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   background-color: #f5fcf8;
+  font-family: var(--font-primary);
 }
 
 h1,
@@ -43,9 +43,7 @@ h6 {
   font-size: 0.75rem;
   line-height: 1.5rem;
 }
-
 /* Headings */
-
 .heading-3xl {
   font-size: 4.5rem;
   line-height: 4.5rem;
@@ -58,7 +56,7 @@ h6 {
 
 .heading-xl {
   font-size: 3rem;
-  list-style: 3rem;
+  line-height: 3rem;
 }
 
 .heading-lg {
