@@ -1,0 +1,11 @@
+.article--summary {
+  text-align: center;
+  background-color: white;
+}
+
+.article--summary__grid {
+  display: grid;
+  text-align: left;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Forms</title>
+  </head>
+  <body class="bg-primary-lighter">
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <a href="/index.html" class="text-decoration-none">
+            <h1 class="heading-md header__logo">Alejandro La Rosa</h1>
+          </a>
+          <ul class="navbar--links list-style-none">
+            <li>
+              <a href="/forms.html" class="link text-sm">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-sm">Portafolio</a>
+            </li>
+            <li>
+              <a href="#" class="link text-sm">About</a>
+            </li>
+            <li>
+              <a
+                href="/forms.html"
+                type="button"
+                class="button button--primary button--sm text-decoration-none"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="section-lg forms mt-3">
+      <div class="container-lg py-3">
+        <h2 class="heading-lg semi-bold mb-1">Contact Me</h2>
+        <p class="text-lg light">
+          Looking to expand your team? Or do you need a web developer for a
+          specific project? If I can help you in any way don't hesitate to fill
+          this form.
+        </p>
+      </div>
+      <form class="container-lg">
+        <div class="grid mb-1">
+          <div class="form-group">
+            <label for="first-name" class="text-xs light">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="last-name" class="text-xs light">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="text-xs light">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="john@mail.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="company" class="text-xs light">Company</label>
+            <input
+              type="text"
+              id="company"
+              placeholder="Company SA"
+              name="company"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone" class="text-xs light">Phone</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="987986889"
+              required
+              max="9"
+            />
+          </div>
+          <div class="form-group">
+            <label for="country" class="text-xs light">Country</label>
+            <select name="country" required>
+              <option value="" selected disabled>-- Select a country --</option>
+              <option value="argentina">Argentina</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="brazil">Brazil</option>
+              <option value="peru">Peru</option>
+            </select>
+          </div>
+        </div>
+        <div class="other-opt mb-1">
+          <p class="text-xs light">How can I help you?</p>
+          <div class="check-group">
+            <input type="checkbox" name="job-offer" id="job-offer" />
+            <label class="text-sm light" for="job-offer">
+              job Offer
+              <p class="text-xs light">
+                If you are looking to expand your team
+              </p>
+            </label>
+          </div>
+          <div class="check-group">
+            <input type="checkbox" name="project-offer" id="project-offer" />
+            <label class="text-sm light" for="project-offer">
+              Project Offer
+              <p class="text-xs light">
+                If you are looking to expand your team
+              </p>
+            </label>
+          </div>
+          <div class="check-group">
+            <input type="checkbox" id="collaboration" name="collaboration" />
+            <label class="text-sm light" for="collaboration">
+              Collaboration
+              <p class="text-xs light">
+                If you are looking to expand your team
+              </p>
+            </label>
+          </div>
+          <div class="check-group">
+            <input type="checkbox" id="other" name="other" />
+            <label class="text-sm light" for="other">Other</label>
+          </div>
+        </div>
+        <button class="button button--primary block">Send</button>
+      </form>
+    </main>
+  </body>
+</html>
