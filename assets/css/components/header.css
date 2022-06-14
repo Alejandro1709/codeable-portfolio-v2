@@ -29,7 +29,7 @@
 .bars {
   display: none;
   cursor: pointer;
-  height: 38px;
+  /* height: 38px; */
 }
 
 .mobile-nav {
@@ -38,6 +38,21 @@
 
 .mobile-nav.active {
   display: block;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.mobile-links a {
+  text-decoration: none;
+  color: var(--primary-light);
 }
 
 @media screen and (max-width: 617px) {
