@@ -25,3 +25,29 @@
 .header__logo {
   color: var(--primary-light);
 }
+
+.bars {
+  display: none;
+  cursor: pointer;
+  height: 38px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+@media screen and (max-width: 617px) {
+  /* .navbar {
+    background-color: aqua;
+  } */
+  .navbar--links {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}
