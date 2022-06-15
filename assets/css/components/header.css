@@ -25,3 +25,44 @@
 .header__logo {
   color: var(--primary-light);
 }
+
+.bars {
+  display: none;
+  cursor: pointer;
+  /* height: 38px; */
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.mobile-links a {
+  text-decoration: none;
+  color: var(--primary-light);
+}
+
+@media screen and (max-width: 617px) {
+  /* .navbar {
+    background-color: aqua;
+  } */
+  .navbar--links {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}
