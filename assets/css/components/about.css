@@ -15,5 +15,19 @@
   display: grid;
   text-align: left;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding-bottom: 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2 350px);
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

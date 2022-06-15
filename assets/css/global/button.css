@@ -59,11 +59,13 @@
 
 .button--primary {
   background-color: var(--primary-dark);
+  transition: all 0.1s;
   color: var(--primary-lighter);
 }
 
 .button--primary:hover {
   background-color: var(--green-700);
+  transform: translateY(1.1px);
 }
 
 .button--primary:active {
