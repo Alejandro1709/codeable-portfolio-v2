@@ -1,6 +1,6 @@
-.project {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+.project-h {
+  display: flex;
+  /* flex-direction: row; */
 }
 
 .built {
