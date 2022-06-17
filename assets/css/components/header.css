@@ -56,9 +56,9 @@
 }
 
 @media screen and (max-width: 617px) {
-  /* .navbar {
-    background-color: aqua;
-  } */
+  .navbar {
+    padding: 1rem;
+  }
   .navbar--links {
     display: none;
   }

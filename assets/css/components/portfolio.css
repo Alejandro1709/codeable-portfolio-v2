@@ -8,12 +8,13 @@
 .portfolio-projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .project {
   display: flex;
   flex-direction: column;
+  user-select: none;
 }
 
 .project__top {
