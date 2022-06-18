@@ -22,3 +22,19 @@
   display: flex;
   gap: 4px;
 }
+
+@media screen and (max-width: 891px) {
+  .project-h {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .steps {
+    place-content: center;
+    margin-left: 1rem;
+  }
+
+  .built__header {
+    margin-left: 1rem;
+  }
+}
