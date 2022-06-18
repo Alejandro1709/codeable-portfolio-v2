@@ -58,3 +58,6 @@
 .block {
   width: 100%;
 }
+.link {
+  width: fit-content;
+}
